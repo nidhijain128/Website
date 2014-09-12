@@ -1,0 +1,26 @@
+<?php
+        $url = "http://where.yahooapis.com/v1/concordance/usps/90007?appid=5M3Huy_V34HFgLHJTXK42jTt4ZZiwOVLU5R6wwKmckcyiYV1qdpdWtI2c6V6VOT5t7wyKA--";
+        $uwoeidN = @file_get_contents($url);
+        $pwoeidN = simplexml_load_string($uwoeidN);
+        $woeidValue = $pwoeidN->children();
+        $urlW = "";
+        $urlW = "http://weather.yahooapis.com/forecastrss?w=".$woeidValue."&u=f";
+        $uweather = @file_get_contents($urlW);
+        $pweather = simplexml_load_string($uweather);
+        $image = $pweather->channel->item->description;
+        preg_match("/http:\/\/(.*?)[^\"']+/", $image, $matches);
+        $imgSrc = $matches[0];
+        $namespaces = $pweather->channel->item->getNameSpaces(true);
+        $yweather = $pweather->channel->item->children($namespaces['yweather']);
+        $yweather1 = $pweather->channel->children($namespaces['yweather']);
+        $unit = $yweather1->units->attributes();
+        $temp = $yweather->condition->attributes();
+        $temperature = $temp['temp']."&deg";
+        $loc = $yweather1->location->attributes();
+        $city = $loc['city'];
+        $a = "Current weather at ".$city." is ".$temperature.$unit;
+    ?>
+	<!--<script>
+		document.getElementById('weatherDetails').innerHTML = "<?PHP echo $a; ?>" ;
+		document.getElementById('weatherImg').src = "<?PHP echo $imgSrc; ?>";
+	</script>-->
