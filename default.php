@@ -66,16 +66,16 @@
 								<div id="collapseOne" class="accordion-body collapse">
 									<div class="accordion-inner textAlign">
 										Fall 2014:<br>
-										CSCI 548 - Information Integration on the Web<br>
-										CSCI 402 - Operating Systems<br>
+										<ul><li>CSCI 548 - Information Integration on the Web</li>
+										<li>CSCI 402 - Operating Systems</li></ul>
 										Spring 2014:<br>
-										<a target="_blank" href="http://web-app.usc.edu/soc/syllabus/20141/30000.pdf">CSCI 550 - Advanced Data Stores</a>
-										CSCI 561 - Artificial Intelligence
-										<a target="_blank" href="http://www-scf.usc.edu/~csci572/">CSCI 572- Information Retrieval and Web Search Engines</a>
+										<ul><li><a target="_blank" href="http://web-app.usc.edu/soc/syllabus/20141/30000.pdf">CSCI 550 - Advanced Data Stores</a></li>
+										<li>CSCI 561 - Artificial Intelligence</li>
+										<li><a target="_blank" href="http://www-scf.usc.edu/~csci572/">CSCI 572 - Information Retrieval and Web Search Engines</a></li></ul>
 										Fall 2013:<br>
-										<a target="_blank" href="http://merlot.usc.edu/cs570-f13/">CSCI 570 - Analysis of Algorithms</a>
-										<a target="_blank" href="http://www-scf.usc.edu/~csci571/">CSCI 571 - Web Technologies</a>
-										CSCI 585 - Database Systems<br>
+										<ul><li><a target="_blank" href="http://merlot.usc.edu/cs570-f13/">CSCI 570 - Analysis of Algorithms</a></li>
+										<li><a target="_blank" href="http://www-scf.usc.edu/~csci571/">CSCI 571 - Web Technologies</a></li>
+										<li>CSCI 585 - Database Systems</li></ul>
 									</div>
 								</div>
 							</div>
@@ -88,13 +88,13 @@
 								<div id="collapseTwo" class="accordion-body collapse">
 									<div class="accordion-inner" style="text-align: left; color:black;">
 										Courses:<br>
-										Data Warehousing and Mining<br>
-										Distributed Computing<br>
-										Computer Networks<br>
-										Mobile Computing<br>
-										System Programming and Compiler cConstruction<br>
-										Theory of Computer Science<br>
-										E-Commerce<br>
+										<ul><li>Data Warehousing and Mining</li>
+										<li>Distributed Computing</li>
+										<li>Computer Networks</li>
+										<li>Mobile Computing</li>
+										<li>System Programming and Compiler cConstruction</li>
+										<li>Theory of Computer Science</li>
+										<li>E-Commerce</li></ul>
 									</div>
 								</div>
 							</div>
@@ -117,7 +117,7 @@
 											<li>Gained extensive training in MATLAB and its toolboxes</li>
 											<li>Provided solution and support to clients for technical issues.</li>
 											<li>Worked on a web application tool that is used within MathWorks for bug and enhancement tracking.<br>
-												It's a JAVA based client-server architecture involving techologies like JSP, Javascript, DOJO.
+												It's a JAVA based client-server architecture involving technologies like JAVA, JSP, JavaScript, DOJO.
 											</li>
 										</ul>
 									</div>
@@ -132,7 +132,9 @@
 								<div id="collapse4" class="accordion-body collapse">
 									<div class="accordion-inner" style="text-align: left; color:black;">
 										Initially I was maintaining their website www.buildingcapacity.usc.edu<br>
-										With the start of the new project www.welcomingpractices.org, I am working on the set up  of the database that we have hosted on AWS. The database contains information about all the resources that will be available for students in various schools, districts, community and military. We the built the web registration form which stores student information into the database. I am currently working on a building an Android and iOS application to access the resources based on the interests the student/parent filled in the web application.<br>
+										With the start of the new project www.welcomingpractices.org, I am working on the set up  of the database that we have hosted on AWS. The database contains information about all the resources that will be available for students in various schools, districts, community and military.<br>
+										We the built the web registration form which stores student information into the database. I am currently working on a building an Android and iOS application to access the resources based on the interests the student/parent filled in the web application.<br>
+										Technologies Used - MySQL, Android, PHP
 									</div>
 								</div>
 							</div>
@@ -144,7 +146,7 @@
 								</div>
 								<div id="collapse5" class="accordion-body collapse">
 									<div class="accordion-inner" style="text-align: left; color:black;">
-										They maintain all the databases used for various graduate school applications. I was working on writing complex SQL queries and procedures to that could used for the applications, and for generating reports for various surveys.<br>
+										They maintain all the databases used for various graduate school applications. I was working on writing complex SQL queries and procedures which could be used for the applications, and for generating reports for various surveys conducted by garduate school.<br>
 									</div>
 								</div>
 							</div>
@@ -158,8 +160,8 @@
 									<div class="accordion-inner" style="text-align: left; color:black;">
 										<ul>
 											<li>My team dealt with project management tools like CA Clarity PPM and Microsoft Sharepoint.</li>
-											<li>I worked on two client projects that dealt with customizing the tool for according to the requirements and writing various SQL queries and gel scripts.</li>
-											<li>My major project was builing a mobie version of Clarity that dispalyed all important information about any project or portfolio to the managers. The web tool had a query language of its own called nSQL, these queries were used to create libraries that were used to fetch data from the application onto the mobile version of the tool.</li>
+											<li>I worked on two client projects that dealt with customizing the tool according to the requirements and writing various SQL queries and gel scripts.</li>
+											<li>My major project was building a mobile version of Clarity that displayed all important information about any project or portfolio for the managers. The web tool had a query language of its own called nSQL, these queries were used to create libraries that were used to fetch data from the application onto the mobile version of the tool.</li>
 									</div>
 								</div>
 							</div>
@@ -173,7 +175,7 @@
 							<div class="accordion-group">
 								<div class="accordion-heading">
 									<a class="accordion-toggle fontStyle" data-toggle="collapse" data-parent="#accordion3" href="#collapse7">
-										Spatial queries to provide information of announcemnet systems
+										Spatial queries to provide information of announcement systems
 									</a>
 								</div>
 								<div id="collapse7" class="accordion-body collapse">
