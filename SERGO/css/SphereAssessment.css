@@ -1,0 +1,71 @@
+.form-control {
+	width: 20% !important;
+	margin-top: 1% !important;
+	margin-left: 40% !important;
+}
+
+.jumbotron {
+	padding-top: 2% !important;
+	padding-bottom: 2% !important;
+}
+
+#SearchButton {
+	width: 10% !important;
+	margin-left: 45% !important;
+}
+	
+div .btn {
+	width: 44% !important;
+}
+	
+.textAlign, h2 {
+	text-align: center !important;
+}
+
+.fontStyle {
+	font-size:18x !important;
+	font-family: Sans-Serif !important;
+}
+
+#heading {
+	color: blue;
+	font-size: 20px !important;
+}
+
+#next, #previous {
+	visibility: hidden;
+	width: 18% !important;
+	/*height: 5% !important;*/
+}
+
+#contentPage{
+	width: 40%;
+	float: left;
+}
+
+#divLeft, #divRight {
+	float:left;
+	width: 30%;
+}
+
+#previous {
+	margin-right: 3% !important;
+	float: right;
+}
+
+#next {
+	margin-left: 3% !important;
+}
+
+hr {
+	width: 100%;
+}
+
+span {
+	text-align: center !important;
+}
+
+#noTitles {
+	visibility: hidden;
+	margin-top: -25% !important;
+}

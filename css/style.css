@@ -9,9 +9,9 @@
 }
 
 .title {
-	font-size:58px;
+	font-size:58px !important;
 	color: black !important;
-	margin-top:8px;
+	margin-top:8px !important;
 }
 
 .textAlign, .textAlign a {
