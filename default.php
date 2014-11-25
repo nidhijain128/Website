@@ -137,7 +137,8 @@
 										<li>For new research project "Welcoming Practices", working on the set up  of the database that we have hosted on AWS. The database contains information about all the resources that will be available for students in various schools, districts, community and military.</li>
 										<li>We the built the web registration form which stores student information into the database www.welcomingpractices.org</li>
 										<li>I am currently working on a building an Android and iOS application to access the resources based on the interests the student/parent filled in the web application.</li>
-										Technologies Used - MySQL, Android, PHP
+										Technologies Used - MySQL, Android, PHP<br>
+										<a target="_blank" href="WelcomingPractices.html">Screenshots</a>
 										</ul>
 									</div>
 								</div>
